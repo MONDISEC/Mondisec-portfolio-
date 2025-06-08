@@ -1,136 +1,34 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Mondisec Web Design</title>
-  <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      margin: 0;
-      padding: 0;
-      background: #f9fafb;
-      color: #111827;
-    }
-    header, section {
-      padding: 2rem;
-      text-align: center;
-    }
-    nav a {
-      margin: 0 1rem;
-      text-decoration: none;
-      color: #065f46;
-      font-weight: bold;
-    }
-    .bio, .contact, .pricing, .blog, .templates {
-      margin: 3rem auto;
-      max-width: 800px;
-      background: #ffffff;
-      padding: 2rem;
-      border-radius: 1rem;
-      box-shadow: 0 0 10px rgba(0,0,0,0.05);
-    }
-    .pricing-option {
-      margin-bottom: 2rem;
-    }
-    form input, form textarea {
-      width: 100%;
-      padding: 0.75rem;
-      margin: 0.5rem 0;
-    }
-    form button {
-      padding: 0.75rem 1.5rem;
-      background: #facc15;
-      color: #065f46;
-      border: none;
-      font-weight: bold;
-      cursor: pointer;
-    }
-    .whatsapp-btn {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      background-color: #25D366;
-      color: white;
-      padding: 15px;
-      border-radius: 50%;
-      font-size: 24px;
-      text-decoration: none;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
-    <h1>Mondisec Web Design</h1>
-    <p>Affordable & Professional Websites in South Africa</p>
-    <nav>
-      <a href="#bio">About</a>
-      <a href="#pricing">Prices</a>
-      <a href="#templates">Templates</a>
-      <a href="#blog">Blog</a>
-      <a href="#contact">Quote</a>
-    </nav>
+    <h1>Welcome to Mondisec Web Design</h1>
+    <p>Professional websites for South African businesses</p>
   </header>
-
-  <section class="bio" id="bio">
-    <h3>About Me</h3>
-    <p>I’m a South African web designer helping businesses go online with fast, clean websites. I specialize in HTML, CSS, JavaScript, and mobile-friendly design. Let me help your business shine online!</p>
-  </section>
-
-  <section class="pricing" id="pricing">
-    <h3>Pricing</h3>
-    <div class="pricing-option">
-      <h4>Starter Website</h4>
-      <p>R2,500 - 3 Pages, Mobile Responsive</p>
-    </div>
-    <div class="pricing-option">
-      <h4>Business Website</h4>
-      <p>R5,000 - 5 to 6 Pages, Contact Form</p>
-    </div>
-    <div class="pricing-option">
-      <h4>E-commerce Website</h4>
-      <p>R9,000+ - Online Store with Cart</p>
-    </div>
-  </section>
-
-  <section class="templates" id="templates">
-    <h3>Buy Website Templates</h3>
-    <div class="pricing-option">
-      <h4>Salon Website Template</h4>
-      <p>R500 - Mobile-Friendly, Ready to Use</p>
-      <a href="https://payfast.io/your-salon-template-link">Buy Now</a>
-    </div>
-    <div class="pricing-option">
-      <h4>Restaurant Website Template</h4>
-      <p>R700 - Menu Page Included</p>
-      <a href="https://payfast.io/your-restaurant-template-link">Buy Now</a>
-    </div>
-  </section>
-
-  <section class="blog" id="blog">
-    <h3>Blog: Affordable Web Design in South Africa (2025)</h3>
-    <p>Looking for affordable web design in South Africa? You're not alone. Whether you're a small business owner in Johannesburg or a freelancer in Durban, your online presence is key.</p>
-    <p><strong>Why a Website is Critical</strong><br/> Over 70% of customers check a business online before buying. A good website builds trust, tells your story, and increases sales.</p>
-    <p><strong>What You Can Expect to Pay:</strong></p>
-    <ul>
-      <li>Starter Website – R2,500</li>
-      <li>Business Website – R5,000</li>
-      <li>E-commerce Website – R9,000+</li>
-    </ul>
-    <p>Need help getting started? <a href="#contact">Request a quote</a> today.</p>
-  </section>
-
-  <section class="contact" id="contact">
-    <h3>Request a Quote</h3>
-    <form action="https://formspree.io/f/yourFormID" method="POST">
-      <input type="text" name="name" placeholder="Your Name" required />
-      <input type="email" name="email" placeholder="Your Email" required />
-      <textarea name="message" placeholder="Describe your project..." required></textarea>
-      <button type="submit">Send</button>
-    </form>
-  </section>
-
-  <!-- WhatsApp Chat Button -->
-  <a href="https://wa.me/27YOURNUMBER" class="whatsapp-btn" target="_blank">💬</a>
+  <main>
+    <section>
+      <h2>Our Services</h2>
+      <p>We offer web design, SEO, and e-commerce setup services.</p>
+    </section>
+    <section>
+      <h2>Contact Us</h2>
+      <form action="https://formspree.io/f/yourFormID" method="POST">
+        <input type="text" name="name" placeholder="Your name" required />
+        <input type="email" name="email" placeholder="Your email" required />
+        <textarea name="message" placeholder="Your message"></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>© 2025 Mondisec Web Design. All rights reserved.</p>
+  </footer>
 </body>
 </html>
